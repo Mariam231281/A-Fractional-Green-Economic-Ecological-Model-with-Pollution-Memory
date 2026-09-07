@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+# PyTorch is required only for the PINN (pinn.py, Fig. 3, Tables 4 & 6).
+# The ABM solver, equilibrium analysis, and Figs 1/2/4 do not need it.
+# A CUDA-enabled build is recommended for the full training schedule.
+torch>=2.0
